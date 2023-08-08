@@ -1,0 +1,16 @@
+(footprint "MountingHole_2.4mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Mounting Hole 5.3mm, M5")
+  (tags "mounting hole 5.3mm m5")
+  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -6.3) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ebc388b5-dbcb-4414-9761-17a46deb21a4)
+  )
+  (fp_text value "MountingHole_2.4mm" (at 0 6.3) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b22d37a4-603b-4740-a0ce-c8bbfc909a9a)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.4 2.4) (drill 2.4) (layers "F&B.Cu" "*.Mask")
+    (clearance 0.1) (tstamp 416d3e31-bfc9-4407-a36b-ff6f87dcc5ad))
+)
